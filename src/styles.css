@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(73, 70, 70, 0.979);
+  color: white;
+  padding: 2vh 5vw;
+  margin: 10vh auto;
+  box-shadow: 4px 4px 8px rgba(80, 79, 79, 0.76);
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1.1px;
+}
+
+input, button {
+  padding: 2vh 1vw;
+  border: none;
+}
+
+button {
+  padding: 2vh 5vw;
+  margin-left: 1vh;
+}
+
+.inputbar {
+  margin: 6vh auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.outputbox {
+  background-color: rgb(141, 135, 135);
+  text-align: left;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .App {
+    width: 30vw;
+    padding: 3vh 2vw;
+  }
+}
